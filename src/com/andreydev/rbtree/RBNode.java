@@ -28,27 +28,7 @@ public class RBNode {
         right = null;
         parrent = null;
     }
-  /*
-    public void printNode(){
-        String n = "NIL";
-        String leftString = new Integer(this.left.getKey()).toString();
-        String rightString = new Integer(this.right.getKey()).toString();
-        String pString = new Integer(this.parrent.getKey()).toString();
 
-        if(this.left.getKey() == Integer.MAX_VALUE){
-            leftString = n;
-        }
-        if(this.right.getKey() == Integer.MAX_VALUE){
-            rightString = n;
-        }
-        if(this.parrent.getKey() == Integer.MAX_VALUE){
-            pString = n;
-        }
-
-
-        System.out.printf("Key: %d\nLeft: %s\nRight: %s\nColor: %s\nParent: \n\n", key,
-                leftString, rightString, color.toString(), pString);
-    }      */
 
     public int getKey() {
         return key;

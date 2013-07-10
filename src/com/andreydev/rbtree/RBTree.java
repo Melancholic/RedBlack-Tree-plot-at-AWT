@@ -163,42 +163,7 @@ public class RBTree {
         RBNode x = root;
         return getDeep(x);
     }
-     /*
-
-    public com.andreydev.rbtree.RBNode find(int k)
-    {
-        com.andreydev.rbtree.RBNode x = root;
-        while(x!=nil && x.getKey()!=k)
-        {
-            if(x.getKey() > k)
-            {
-                x = x.getLeft();
-            }
-            else
-            {
-                x = x.getRight();
-            }
-        }
-        return x;
-    }
-
-    public void printTree(com.andreydev.rbtree.RBNode node)
-    {
-        if(node == nil)
-        {
-            return;
-        }
-        printTree(node.getLeft());
-        node.printNode();     */
-/*System.out.printf("Key: %d\nLeft: %d\nRight: %d\nColor: %s\n\n", node.getKey(), node.getLeft().getKey(),
-node.getRight().getKey(), node.getColor().name());*/
-   /*     printTree(node.getRight());
-
-
-
-
-    }
-     */
+     
 
 
     public RBNode getRoot() {
